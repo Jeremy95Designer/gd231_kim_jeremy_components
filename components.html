@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ------------------------------------------------------ -->
+  <meta charset="utf-8">
+  <title>(Jeremy Kim) - Components</title>
+
+  <!-- Mobile Specific Metas
+  ------------------------------------------------------ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  ------------------------------------------------------- -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+</head>
+<body class="components" id="main">
+
+    <nav>
+        <div class="container">
+            <div class="logo four columns">
+                <a href="/">Jeremy Kim</a>
+            </div>
+            <div class="topnav eight columns">
+                <ul>
+                    <li><a href="layouts.html">Layouts</a></li>
+                    <li><a href="colors.html">Colors</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                    <li><a href="components.html" class="active">Components</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li class="mobile"><a><span style="cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="slidenav" class="slidenav">
+      <a href="javascript;void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="layouts.html">Layouts</a>
+        <a href="colors.html">Colors</a>
+        <a href="typography.html">Typography</a>
+        <a href="components.html">Components</a>
+        <a href="media.html">Media</a>
+    </div>
+
+    <!-- Primary Page Layout
+    --------------------------------------------------------- -->
+    <div class="container">
+
+        <ul class="breadcrumb">
+              <li><a href="/">Home</a></li>
+              <li>Components</li>
+            </ul>
+
+        <h1>Components</h1>
+        <p class="lead">Here are some elements you'll commonly use through out web projects you'll have.</p>
+
+
+        <h2>Form Elements</h2>
+        <div class="row">
+            <div class="six columns">
+                <label>Text Field</label>
+                    <input type="text" placeholder="Placeholder Text">    
+            </div>
+            <div class="six columns">
+                <label>Select List</label>
+                    <select>
+                        <option value="" selected="selected">- Select -</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                    </select>
+            </div>
+
+            <label>Text Area</label>
+            <textarea placeholder="Placeholder Text"></textarea>
+        </div>
+
+        <div class="row">
+            <div class="six columns">
+                <label>Radio Buttons</label>
+                <div class="radio-checkbox">
+                        <input type="radio"><label>Radio Button 1</label>
+                </div>
+            </div>
+            <div class="radio-checkbox">
+                    <input type="radio"><label>Radio Button 2</label>
+            </div>
+        </div>
+        <div class="six columns">
+            <label>Checkboxes</label>
+            <div class="radio-checkbox">
+                    <input type="checkbox"><label>Checkbox 1</label>
+            </div>
+                <div class="radio-checkbox">
+                    <input type="checkbox"><label>Checkbox 2</label>
+                </div>
+        </div>
+    </div>

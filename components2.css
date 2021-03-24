@@ -1,0 +1,40 @@
+/* Buttons
+-------------------------------------------- */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  padding: 10px 5%
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  background-color: #7453EF;
+  border: 2px solid #7453EF;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  color: #FFF;
+  border: 2px solid #5C41BD;
+  background-color: #5C41BD;
+  outline: 0;
+  text-decoration: none;
+}
+.button.outline {
+    background-color: transparent;
+    color: #7453EF;
+}
+.button.outline:hover {
+    background-color: #7453EF;
+    border: 2px solid #7453EF;
+    color: #FFF;
+}
+.button-row .button {
+    width: 90%;
+}
